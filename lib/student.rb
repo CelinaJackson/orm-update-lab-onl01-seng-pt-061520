@@ -57,6 +57,6 @@ attr_reader :id
     DB[:conn].execute(sql, name).map { |row| new_from_db(row) }.first
   end
   
-  def self.update
+  def update
 
 end
